@@ -196,6 +196,7 @@ func testBaseGrammer() {
      函数内部修改函数内部（地址传递）
      */
     
+    
     var number = 10;
     
     @discardableResult func DefaultValueParater(at a:inout Int,at b:Int ,at c:String = "name") ->(a:Int,b:Int,c:Int,d:String){
